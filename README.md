@@ -1,6 +1,6 @@
 # Landing Page - Projeto Responsivo
 
-Este é um projeto de uma **Landing Page moderna e responsiva**, desenvolvido com **HTML** e **CSS**, inspirado em um layout criado no **Figma**. O projeto segue boas práticas de design e acessibilidade, sendo ideal para apresentações institucionais ou profissionais.
+Este é um projeto de uma **Landing Page moderna e responsiva**, desenvolvido com **HTML**, **CSS** e **JavaScript**, inspirado em um layout criado no **Figma**. O formulário de contato está integrado ao **SheetMonkey**, permitindo armazenar os dados submetidos diretamente em uma planilha online.
 
 ## 🔍 Funcionalidades
 
