@@ -34,20 +34,23 @@
     margin-top: 10px;
   }
   
-   .stats {
 
+
+   .stats {
     display: flex;
-    justify-content: space-around;
-    padding: 40px 20px; 
+    justify-content:  space-evenly;
+    padding: 40px 25px; 
     background-color: #f9f9f9;
     flex-wrap: wrap;
     text-align: center;
   }
+
   
   .stats div {
     flex: 1;
     min-width: 250px;
     padding: 20px;
+    text-align: left;
   }
   
   .stats h2 {
