@@ -11,6 +11,7 @@ Este é um projeto de uma **Landing Page moderna e responsiva**, desenvolvido co
 
 ## 📸 Captura de Tela
 
+![Imagem da Landing Page](assets/landingPage.png)
 
 ## 🛠 Tecnologias Utilizadas
 
