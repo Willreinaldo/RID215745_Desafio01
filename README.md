@@ -21,3 +21,5 @@ Este é um projeto de uma **Landing Page moderna e responsiva**, desenvolvido co
 
 ## Deploy no netlify
 - https://ladingpagearquitecto.netlify.app
+## Link da planilha
+https://docs.google.com/spreadsheets/d/1e6o-_Ofq0NNrWv_KZzLaZHPyIk38pZ0geLXfgS_x0NA
