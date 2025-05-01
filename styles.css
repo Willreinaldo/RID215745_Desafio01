@@ -1,0 +1,151 @@
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Inter', sans-serif;
+    background-color: #fff;
+    color: #000;
+    line-height: 1.6;
+  }
+  
+   .container {
+    width: 100%;
+     margin: 0 auto;
+    padding: 20px;
+  }
+  
+   .hero {
+    background-color: #303030;
+    color: white;
+    padding: 60px 20px;
+    text-align: left;
+  }
+  
+  .hero h1 {
+    font-size: 3rem;
+    font-weight: 600;
+  }
+  
+  .hero p {
+    font-size: 1.25rem;
+    margin-top: 10px;
+  }
+  
+   .stats {
+
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 20px; 
+    background-color: #f9f9f9;
+    flex-wrap: wrap;
+    text-align: center;
+  }
+  
+  .stats div {
+    flex: 1;
+    min-width: 250px;
+    padding: 20px;
+  }
+  
+  .stats h2 {
+    font-size: 2rem;
+    font-weight: 600;
+  }
+  
+   .about {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 30px;
+    align-items: center;
+    padding: 60px 20px;
+  }
+  
+  .about img {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 30px;
+  }
+  
+  .about-text {
+    flex: 1;
+    max-width: 700px;
+    
+  }
+  
+  .about-text h3 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    font-weight: 500;
+  }
+  
+  /* Seção de formulário */
+  .contact {
+    background-color: #303030;
+    color: white;
+    padding: 60px 20px;
+    text-align: center;
+  }
+  
+  .contact h3 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  input {
+ padding: 15px;
+  border: none;
+  border-radius: 10px;
+  font-size: 24px;
+  line-height: 30px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  letter-spacing: 0;
+  vertical-align: middle;
+  }
+  
+  button {
+    width: 286px;
+    height: 74px;
+    align-self: center;
+    background-color: #C07212;
+    color: white;
+    font-size: 24px;  
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+
+  button:hover {
+    background-color: #a55a0f;
+  }
+  
+  /* Responsividade */
+  @media (min-width: 768px) {
+    .about {
+      flex-direction: row;
+      justify-content: center;
+    }
+  
+    .about-text {
+      flex: 1;
+    }
+  
+    .about img {
+      flex: 1;
+    }
+  }
+  
